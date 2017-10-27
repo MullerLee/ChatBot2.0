@@ -6,9 +6,6 @@ stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-stre
 from nltk.tokenize import sent_tokenize
 sent_tokenize(text)
 
-
-
-
 french_tokenizer = nltk.data.load('tokenizers/punkt/french.pickle')
 text = "Sois toujours l'coute de tes plus profonds dsirs. Tiens eux comme tu tiens la vie, car sans eux, la vie n'est rien. "
 french_tokenizer.tokenize(text)
