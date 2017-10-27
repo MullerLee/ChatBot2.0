@@ -6,3 +6,20 @@ stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-stre
 
 OUTPUT_2
 >>>["Sois toujours l'coute de tes plus profonds dsirs.", "Tiens eux comme tu tiens la vie, car sans eux, la vie n'est rien."]
+
+OUTPUT_3
+['NLTK', 'is', 'a', 'leading', 'platform', 'for', 'building', 'Python', 'programs', 'to', 'work', 'with', 'human', 'language', 'data', '.', 'It', 'provides', 'easy-to-use', 'interfaces', 'to', 'over', '50', 'corpora', 'and', 'lexical', 'resources', 'such', 'as', 'WordNet', ',', 'along', 'with', 'a', 'suite', 'of', 'text', 'processing', 'libraries', 'for', 'classification', ',', 'tokenization', ',', 'stemming', ',', 'tagging', ',', 'parsing', ',', 'and', 'semantic', 'reasoning', ',', 'wrappers', 'for', 'industrial-strength', 'NLP', 'libraries', ',', 'and', 'an', 'active', 'discussion', 'forum', '.']
+
+OUTPUT_4
+Please write a text Today is a pleasent day
+The length of text is 5 words
+
+OUTPUT_5
+['Have', 'a', 'nice', 'day.', 'I', 'hope', 'you', 'find', 'the', 'book', 'interesting', '!']
+
+OUTPUT_6
+['Do', "n't", 'hesitate', 'to', 'ask', 'questions', '.']
+
+OUTPUT_7
+['Don', "'", 't', 'hesitate', 'to', 'ask', 'questions', '.']
+
