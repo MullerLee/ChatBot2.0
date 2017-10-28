@@ -1,1 +1,8 @@
+OUTPUT_1
+["Don't", 'heisitate', 'to', 'ask', 'questions']
 
+OUTPUT_2
+["Don'","t", 'heisitate', 'to', 'ask', 'questions']
+
+OUTPUT_3
+["Don't", 'heisitate', 'to', 'ask', 'questions']
