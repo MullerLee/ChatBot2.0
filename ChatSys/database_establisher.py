@@ -272,7 +272,7 @@ while 1:
 
 
 #print(check_list)
-f=open(r'data\\OA_base_recover.txt','w',encoding='utf-8')
+f=open(r'data\\filter_output.txt','w',encoding='utf-8')
 print("+++++++++")
 f.writelines(check_list[1:])
 f.close()
