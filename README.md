@@ -19,4 +19,4 @@ The specific functions of every files can be seen when you open them.
 ------------------------
 This Folder is the important folder "ChatSys", which is a basic chat system use " Context Vector" to achieve distinguishing the situation of a conversation (mainly questioning sentences). There is a data folder inside which is the used database in the system.
 The systems remains some bugs though, but it successfully achieves the function of finding the "Context Vector" to help us analysing a conversation in our chat system as an example
-The SDSBDC.py file in ChatSys folder is the structure of the system, while others are the supporting files. For instance, file establish_database.py is used to create database that will be used in our system. The specific functions of every files can be seen while you open them.
+The SDSBC.py file in ChatSys folder is the structure of the system, while others are the supporting files. For instance, file establish_database.py is used to create database that will be used in our system. The specific functions of every files can be seen while you open them.
