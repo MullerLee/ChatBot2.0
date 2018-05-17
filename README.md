@@ -1,6 +1,8 @@
 # ChatBot2.0
 A  development of chat bot with the tools of statistics and NLTK packages. Mainly use Python.
 This is version 2.0+, mianly use python to enhaunse some functions.
+#brief introduction
+-------------------
 Here are instructions of every files:
 #folder "Context"
 -----------------
