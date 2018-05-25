@@ -14,6 +14,7 @@ The specific functions of every files can be seen when you open them.
 
 #folder "Result"
 ------------------------
+A file of showing how we find the more detailed distributions of each part-of-speeched. By using statistics, we calculated the expect and var of 1500 sentences. After that, we made a hypothesis testing to show that our results are at least not wrong.
 
 #folder "ChatSys"
 ------------------------
