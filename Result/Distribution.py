@@ -3,7 +3,7 @@
 
 @author: M.Lee
 @file: Distribution.py
-@time: 2018/5/17
+@time: 2018/2/20-2018/5/17(final version)
 """
 
 import nltk
