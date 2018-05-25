@@ -2,8 +2,8 @@
 """
 
 @author: M.Lee
-@file: Distribution.py
-@time: 2018/2/10-2018/5/17(final version)
+@file: Distribution_Hypothesis Testing.py
+@time: 2018/3/2-2018/5/15
 """
 
 import nltk
@@ -37,8 +37,8 @@ t2=BigramTagger(train,backoff=t1)
 '''
 Initialize
 '''
-my_corp=web.sents(fileids='overheard.txt')
-sent_count=500
+my_corp=web.sents(fileids='firefox.txt')
+sent_count=0
 ques_count=0
 All_count=1
 NN_count=0
@@ -136,7 +136,7 @@ for eve_sent in my_corp:
 		#print("VBD:",VBD_count/All_count)
 		#print("VBZ:",VBZ_count/All_count)
 	
-		NNPList=[float(VBZ_count/All_count)]
+		NNPList=[float(VBD_count/All_count)]
 	
 		Possibility.extend(NNPList)
 	
@@ -144,7 +144,7 @@ for eve_sent in my_corp:
 		#plt.pause(0.001)
 		#plt.legend((type1),(u'NN'),loc='upper right')
 	sent_count=sent_count+1
-	if sent_count>15500:
+	if sent_count>15000:
 		break
 print("Done first")
 #print(type(Possibility[5]))
@@ -177,7 +177,7 @@ for virab in elemList:
         Expect_squ=Expect_squ+virab[0]*virab[0]*virab[1]/15000
 Variance=Expect_squ-Expect*Expect
 print("Done Fifth")
-print("This is Type VBZ","\nExpect=",Expect,"\nVar=",Variance)
+print("This is Type VBD","\nExpect=",Expect,"\nVar=",Variance)
 
 '''
 xbr=[0]
