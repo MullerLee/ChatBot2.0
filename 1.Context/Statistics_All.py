@@ -3,7 +3,7 @@
 
 @author: M.Lee
 @file: Statistics_All.py
-@time: 2018/2/5-2018/4/20
+@time: 2018/2/10-2018/4/20(final version)
 """
 
 import nltk
