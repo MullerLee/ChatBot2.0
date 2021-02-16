@@ -320,8 +320,7 @@ while 1:
                   lc_country=con_cach_l
           while cit_count<80:
               cit_cach=linecache.getline('D:\\CollegeActivities\\MainSubjects\\NLP\\ChatSys\\data\\cities.txt',cit_count)
-              cit_cach=cit_cach[:-1]
-              cit_cach_l=cit_cach.lower()
+              cit_cach=cit_cach[:-1]              cit_cach_l=cit_cach.lower()
               cit_count=cit_count+1
               if cit_cach_l==tupl_2[0]:
                   lc_city=cit_cach_l
@@ -358,28 +357,3 @@ while 1:
       sit_count=0
 
   print('current situation:',situation[cur_situ],lc_female_name,lc_male_name,lc_city,lc_country,lc_month,lc_date,lc_year)
-
-# Fifth Filter: Find words in obama.txt
-  count=1 
-  while count<40:
-   if cont_tagged==[]:
-       print("Sorry,  I cannot amswer that.")
-       break
-   linenn=linecache.getline('D:\\CollegeActivities\\MainSubjects\\NLP\\ChatSys\\data\\obama.txt', count)
-   linenn=linenn.lower()
-   linenns=nltk.word_tokenize(linenn)
-   lines_tag=t2.tag(linenns)
-   if set(cont_tagged).issubset(set(lines_tag))==True:
-    if edit_distance(ques_l,linenn)<editdis_2:
-     editdis_2=edit_distance(ques_l,linenn)
-     rate_2=(len(linenn)-editdis)/len(linenn)
-     line_num_2=count
-   count=count+1
-
-  if rate_2>0.03:# rate_2 larger than 0.03
-   reline_2=linecache.getline('D:\\CollegeActivities\\MainSubjects\\NLP\\ChatSys\\data\\obama.txt', line_num_2)
-   print(reline_2)
-   editdis_2=1000           
-   line_num_2=0
-   rate_2=0
-
